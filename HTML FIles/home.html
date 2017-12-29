@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Site Home</title>
+<link href="../Style Sheets/default.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+				<a href="#">Interim Tools</a>
+				<a href="#">Application Tools</a>
+				<a href="#">MyChart Service Tools</a>
+				<a href="#">Operator Tools</a>
+				<a href="#">Registration & Scheduling Tools</a>
+				<a href="#">Support Staff Tools</a>
+				<a href="#">RCC Processes</a>
+				<a href="#">Education & Training</a>
+				<a href="#">Technical Support</a>
+				<a href="#">Archives</a>
+				<a href="#">Community Benefit & Engagement</a>
+			</div>
+	</div>
+
+	<div class="fixed-on-top">
+		<ul class="navbar">
+			<li class="navbar-item">
+				<span style="cursor:pointer" onclick="openNav()">Menu</span>
+				<script>
+					function openNav() {
+						document.getElementById("myNav").style.width = "100%";
+					}
+					
+					function closeNav() {
+						document.getElementById("myNav").style.width = "0%";
+					}
+				</script>
+			</li>
+			<li class="navbar-item">Home</li>
+			<li class="navbar-item">Search</li>
+			<li class="right-navbar-item">
+				<c class="allina-green-font">RCC</c>
+				<c class="allina-blue-font">Help</c>
+			</li>
+		</ul>
+	<hr>
+	</div>
+</body>
+</html>
